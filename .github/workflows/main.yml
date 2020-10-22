@@ -40,7 +40,7 @@ jobs:
       
       # Gerar o relatório em HTML
       - run: npm run report:merge
-      - run: npm report:mocha
+      - run: npm run report:mocha
       
       # Publicar o relatório em HTML 
       - name: Deploy to GitHub Pages
